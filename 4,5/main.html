@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>MAIN</h1>
+  <iframe class="iframe" src="http://127.0.0.1:5501/index.html" frameborder="0"></iframe>
+  <form>
+    <p>Записать данные в localStorage: </p>
+    <div>
+      <span>Ключ</span>
+      <input class="keyToWrite" type="text" name="keyToWrite">
+    </div>
+    <div>
+      <span>Значение</span>
+      <input class="valueToWrite" type="text" name="valueToWrite">
+    </div>
+    <button class="write" type="button">ЗАПИСАТЬ</button>
+  </form>
+  <form action="">
+    <p>Удалить данные из localStorage: </p>
+    <div>
+      <span>Ключ</span>
+      <input class="keyToDelete" type="text" name="keyToDelete">
+    </div>
+    <button class="delete" type="button">УДАЛИТЬ</button>
+  </form>
+  <form action="">
+    <p>Получить данные из localStorage: </p>
+    <div>
+      <span>Ключ</span>
+      <input class="keyToGet" type="text" name="keyToGet">
+    </div>
+    <button class="get" type="button">ПОЛУЧИТЬ</button>
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>
